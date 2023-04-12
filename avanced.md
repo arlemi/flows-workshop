@@ -14,6 +14,8 @@ In this section, you will see how to complete three main tasks:
 
 ## Send and authorize a request
 
+learn how to create a flow that climatizes a vehicle’s cabin and ultimately send your first request from that flow.
+
 - URL: https://customer-education.postmanlabs.com/workshops/flows
 - API Key: 1234
 
