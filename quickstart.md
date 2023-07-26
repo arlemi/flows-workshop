@@ -73,7 +73,7 @@ This is the beginning of a detailed tutorial that builds a flow that gets a list
 
     ![Add a String block](https://assets.postman.com/postman-docs/v10/flow-add-string-block-1-v10.jpg)
 
-## Logging the output to the console
+## Logging the output
 
 1. Create a **Select** block to the right of the **Send Request** block.
 1. Connect the **Select** block to the port next to **Success** on the **Send Request** block.
@@ -86,8 +86,8 @@ This is the beginning of a detailed tutorial that builds a flow that gets a list
 
     ![Select body.results](https://assets.postman.com/postman-docs/v10/flow-body-results-1-v10.jpg)
 
-1. Create a **Log** block and connect it to the right side of the **Select** block, then select **Run**.
-1. Select **Console** to view the results.
+1. Create a **Output** block and connect it to the right side of the **Select** block, then select **Run**.
+1. View the results.
 
     ![Add a Log block](https://assets.postman.com/postman-docs/v10/flow-add-log-1-v10.jpg)
 
@@ -111,7 +111,7 @@ This is the beginning of a detailed tutorial that builds a flow that gets a list
 
     ![Enter `has_next`](https://assets.postman.com/postman-docs/v10/flow-enter-has-next-1-v10.jpg)
 
-1. Select **Write an FQL condition** and enter <code class="language-text">&#96;has_next&#96; != null</code>.
+1. Select **Write an FQL condition** and enter <code class="language-text">&#96;has_next&#96; != null</code>. Or use one of the Code Snippets available.
 
     > If `has_next` is null, then the flow has reached the last page of results.
 
